@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "web-home-work-8"
+version = "0.1.0"
+description = ""
+authors = ["Hubsit <vitaliy.kievskiy@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "web_home_work_8"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.3.3"
+mongoengine = "^0.27.0"
+redis-lru = "^0.1.2"
+faker = "^17.6.0"
+pika = "^1.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
